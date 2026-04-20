@@ -8,5 +8,7 @@ const combined = [];
 // TODO: forEach를 사용하여 arr1과 arr2의 모든 요소를 combined 배열에 push하세요.
 // (forEach를 두 번 사용하세요)
 
+arr1.forEach((elem) => combined.push(elem));
+arr2.forEach((elem) => combined.push(elem));
 
 console.log(combined); // 예상 출력: [1, 2, 3, 4, 5, 6]

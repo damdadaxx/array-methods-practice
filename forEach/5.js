@@ -11,3 +11,7 @@ const numbers = [1, 2, 3, 4, 5, 6];
 // 4은(는) 짝수입니다.
 // 5은(는) 홀수입니다.
 // 6은(는) 짝수입니다.
+numbers.forEach((num) => {
+  const result = num % 2 === 0 ? "짝수" : "홀수";
+  console.log(`${num}은(는) ${result}입니다.`);
+});

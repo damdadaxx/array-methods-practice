@@ -2,10 +2,10 @@
 // forEach를 사용하여 학생 정보를 보기 좋게 출력하세요.
 
 const students = [
-  { name: '김민수', score: 85 },
-  { name: '이서연', score: 92 },
-  { name: '박지훈', score: 78 },
-  { name: '최유진', score: 95 },
+  { name: "김민수", score: 85 },
+  { name: "이서연", score: 92 },
+  { name: "박지훈", score: 78 },
+  { name: "최유진", score: 95 },
 ];
 
 // TODO: forEach를 사용하여 각 학생의 이름과 점수를 아래 형식으로 출력하세요.
@@ -14,3 +14,6 @@ const students = [
 // 이서연의 점수는 92점입니다.
 // 박지훈의 점수는 78점입니다.
 // 최유진의 점수는 95점입니다.
+students.forEach((student) => {
+  console.log(`${student.name}의 점수는 ${student.score}입니다.`);
+});

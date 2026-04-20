@@ -6,5 +6,7 @@ let sum = 0;
 
 // TODO: forEach를 사용하여 numbers 배열의 모든 요소를 sum에 더하세요.
 
-
+numbers.forEach((num) => {
+  sum += num;
+});
 console.log(sum); // 예상 출력: 150
