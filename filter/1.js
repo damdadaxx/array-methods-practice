@@ -4,6 +4,6 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // TODO: filter를 사용하여 numbers에서 짝수만 담은 새 배열 evenNumbers를 만드세요.
-const evenNumbers = undefined;
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
 
 console.log(evenNumbers); // 예상 출력: [2, 4, 6, 8, 10]
