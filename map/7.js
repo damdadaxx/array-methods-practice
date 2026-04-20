@@ -5,6 +5,6 @@ const celsius = [0, 10, 20, 30, 100];
 
 // TODO: map을 사용하여 섭씨를 화씨로 변환한 새 배열 fahrenheit를 만드세요.
 // 변환 공식: 화씨 = 섭씨 * 9/5 + 32
-const fahrenheit = undefined;
+const fahrenheit = celsius.map((num) => (num * 9) / 5 + 32);
 
 console.log(fahrenheit); // 예상 출력: [32, 50, 68, 86, 212]
